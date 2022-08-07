@@ -4,15 +4,15 @@ print("Baik bu, segera!")
 
 def membeli(susu, telur=False):
     if susu:
-        print("Susu dibeli")
+        print(f"{susu} Susu dibeli")
         if telur:
-            print("Beli telur 6")
+            print(f"Beli susu {telur}")
         else:
             print('\tTelur tidak ada!')
     else:
         print("Tidak ada susunya bu!")
 
 
-membeli(0)
+membeli(1,7)
 # belanja = membeli(2,2)
 # print(belanja)
