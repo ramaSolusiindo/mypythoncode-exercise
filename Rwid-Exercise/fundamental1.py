@@ -1,18 +1,21 @@
-print("Nak, beli susu 1 botol dan jika ada telur, beli 6 telur!")
+"""
+ Perulangan dengan if, joke programming
+"""
+
+print("Nak, beli susu 1 botol dan jika ada telur, beli 6")
 print("Baik bu, segera!")
 
+num_susu = 1
+num_telur = 0
 
-def membeli(susu, telur=False):
-    if susu:
-        print(f"{susu} Susu dibeli")
-        if telur:
-            print(f"Beli susu {telur}")
-        else:
-            print('\tTelur tidak ada!')
+if num_susu != 0:
+    if num_telur != 0:
+        print("Telurnya ada!")
+        print(f"{num_telur} Susu di beli")
     else:
-        print("Tidak ada susunya bu!")
+        print("Telurnya tidak ada!")
+        print(f"{num_susu} Susu di beli")
+else:
+    print("\nBu, susunya habis!")
 
 
-membeli(1,7)
-# belanja = membeli(2,2)
-# print(belanja)
