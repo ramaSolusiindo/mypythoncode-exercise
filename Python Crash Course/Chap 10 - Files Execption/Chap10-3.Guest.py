@@ -3,7 +3,7 @@
  called guest.txt
 """
 username = input('Please type your name : ')
-filename = 'guest.txt'
+filename = '../Chap 9 - Class/guest.txt'
 
 with open(filename,'w') as file_object:
     file_object.write(username)

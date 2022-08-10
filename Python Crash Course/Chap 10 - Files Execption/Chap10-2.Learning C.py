@@ -2,7 +2,7 @@
  Exercise replace string with a different word
 """
 
-filename = "learning_python.txt"
+filename = "../Chap 9 - Class/learning_python.txt"
 with open(filename) as fileobject:
     content = fileobject.read()
 

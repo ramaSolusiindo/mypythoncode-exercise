@@ -4,7 +4,7 @@
 """
 
 
-filename = 'guest_book.txt'
+filename = '../Chap 9 - Class/guest_book.txt'
 print("Type 'quit' if you want finished")
 while True:
     username = input('Please type your name : ')
