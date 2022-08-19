@@ -14,14 +14,14 @@ with open(filenames) as file_object:
 
 print(f"This is readlines result : {lines}")
 print(f"This is read result : \n{baca}")
-print(f"This is readlines result : {baca2}")
+print(f"This is readline result : {baca2}")
 
 pi_string = ''
 for line in lines:
     # pi_string += line.rstrip()
     pi_string += line.strip()
 
-print(pi_string)
+print(f"This is print line using for {pi_string}")
 print(len(pi_string))
 pi_int = float(pi_string)
 print(type(pi_string))
