@@ -27,4 +27,6 @@ with open(filename, 'w') as file_object:
     result = json.dumps(users)
     file_object.write(result)
 
+with open('dump_2.json', 'w') as file_object:
+    json.dump(users, file_object)
 
